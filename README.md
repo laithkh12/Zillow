@@ -1,6 +1,5 @@
 # 🏠 Zillow Property Scraper and Google Form Bot
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Zillow_Logo.svg/512px-Zillow_Logo.svg.png" alt="zillow-logo" width="150"/>
 
 A Python project combining **BeautifulSoup** and **Selenium** to scrape property data from Zillow and automatically populate a Google Form with the scraped details.
 
@@ -81,3 +80,21 @@ Scraped Data:
 ```plaintext
 ['https://zillow.com/homedetails/123', 'https://zillow.com/homedetails/456']
 ```
+- Addresses:
+```plaintext
+['123 Main St, New York, NY', '456 Elm St, Los Angeles, CA']
+```
+- Prices:
+```plaintext
+['$2,000', '$3,500']
+```
+---
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit a pull request or suggest enhancements.
+---
+## 📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+---
+## 📖 Acknowledgments
+- Zillow for providing property data (scraping must comply with their terms of service).
+- Selenium and BeautifulSoup for their powerful automation capabilities.
